@@ -5,9 +5,9 @@ metadata:
   labels:
     app: udagram-services
 data:
-  POSTGRES_HOST: 
+  POSTGRES_HOST: udagram-postgresdb.cvdwhexcpz9k.us-west-2.rds.amazonaws.com
   POSTGRES_DB: postgres
-  AWS_BUCKET: 
+  AWS_BUCKET: udagram-obj-store
   AWS_REGION: us-west-2
   AWS_PROFILE: default
   JWT_SECRET: loveIceScream
